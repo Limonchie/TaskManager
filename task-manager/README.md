@@ -10,7 +10,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone [ваш-репозиторий] task-manager
+   git clone Limonchie/TaskManager
    cd task-manager
    ```
 
@@ -96,3 +96,4 @@ docker-compose exec app php artisan test --verbose
 
 # Запуск конкретного теста
 docker-compose exec app php artisan test --filter=test_create_task
+
